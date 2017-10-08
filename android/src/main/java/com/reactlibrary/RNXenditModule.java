@@ -19,4 +19,9 @@ public class RNXenditModule extends ReactContextBaseJavaModule {
   public String getName() {
     return "RNXendit";
   }
+
+  @ReactMethod
+  public void startScan() {
+    Log.d(REACT_CLASS, "start scan Xendit..");
+  }
 }
