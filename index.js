@@ -5,6 +5,6 @@ const { RNXendit } = NativeModules;
 
 export default {
   startScan: function () {
-    RNXendit.startScan();
+    RNXendit.startScan(param);
   },
 };
