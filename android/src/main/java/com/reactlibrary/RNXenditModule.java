@@ -22,6 +22,6 @@ public class RNXenditModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void startScan() {
-    Log.e(REACT_CLASS, "start scan Xendit..");
+    return ("start scan Xendit..");
   }
 }
